@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="form-box">
+            <form action="" method="">
+                <h1>Formulário de cadastro</h1>
+                <div class="name-box">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="ex.: name157" required>
+                </div>
+                <div class="password-box">
+                    <label for="username">Senha:</label>
+                    <div class="password-items">
+                        <input id="password" type="password" placeholder="senha" required>
+                        <input type="password" id="password-check" placeholder="confirme sua senha" required>
+                    </div>
+                </div>
+                <div class="email-box">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="ex.: email@example.com">
+                    <input type="email" name="email-check" id="email-check" placeholder="confirme seu email">
+                </div>
+                <div class="gender-box">
+                    <p>Gênero</p>
+                    <label for="female">Feminino:
+                        <input type="radio" name="gender" id="female">
+                    </label>
+                    <label for="male">Masculino:
+                        <input type="radio" name="gender" id="male">
+                    </label>
+                    <label for="other">Outro:
+                        <input type="radio" name="gender" id="other">
+                    </label>
+                </div>
+                <div class="button-box">
+                    <input type="submit" value="Inscrever-se">
+                    ou
+                    <button><a href="#">Logar</a></button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
